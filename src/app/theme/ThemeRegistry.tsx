@@ -8,37 +8,6 @@ import * as React from 'react'
 import { NextAppDirEmotionCacheProvider } from './EmotionCache'
 import {themeTypography} from './TypographyTheme'
 
-//>>Add type
-declare module '@mui/material/styles' {
-  interface Palette {
-    myAwesomeColor: string
-  }
-  interface PaletteOptions {
-    myAwesomeColor: string
-  }
-}
-
-declare module '@mui/material/Button' {
-  interface ButtonPropsColorOverrides {
-    myAwesomeColor: true
-  }
-}
-
-
-declare module '@mui/material/styles' {
-  interface BreakpointOverrides {
-    xs: false; // removes the `xs` breakpoint
-    sm: false;
-    md: false;
-    lg: false;
-    xl: false;
-    mobile: true; // adds the `mobile` breakpoint
-    tablet: true;
-    laptop: true;
-    desktop: true;
-  }
-}
-
 const theme = createTheme({
   breakpoints: {
     values: {
