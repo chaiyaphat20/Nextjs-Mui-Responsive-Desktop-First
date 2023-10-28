@@ -1,7 +1,4 @@
 import { Theme, createTheme } from "@mui/material";
-import { Kanit } from "next/font/google";
-
-
 
 export const createThemeTypography = (theme:Theme):Theme =>{
   //Desktop first screen
