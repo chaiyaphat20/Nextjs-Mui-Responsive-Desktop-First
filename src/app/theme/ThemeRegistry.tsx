@@ -6,7 +6,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { Kanit } from 'next/font/google'
 import * as React from 'react'
 import { NextAppDirEmotionCacheProvider } from './EmotionCache'
-import {themeTypography} from './typography'
+import {themeTypography} from './TypographyTheme'
 
 //>>Add type
 declare module '@mui/material/styles' {

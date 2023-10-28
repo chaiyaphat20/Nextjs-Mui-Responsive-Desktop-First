@@ -14,6 +14,8 @@ const themeTypography = createTheme({
     fontWeightBold: 'normal',
   }
 });
+
+//Desktop first screen
 themeTypography.typography.h1 = {
   fontSize: "5rem",
   [themeTypography.breakpoints.down("laptop")]: {
