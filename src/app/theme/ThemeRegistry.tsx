@@ -3,7 +3,6 @@
 import { red } from '@mui/material/colors'
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
-import { Kanit } from 'next/font/google'
 import * as React from 'react'
 import { NextAppDirEmotionCacheProvider } from './EmotionCache'
 import {themeTypography} from './TypographyTheme'
