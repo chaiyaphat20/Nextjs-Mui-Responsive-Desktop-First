@@ -44,5 +44,18 @@ export const createThemeTypography = (theme:Theme):Theme =>{
     },
   };
 
+  theme.typography.h4 = {
+    fontSize: "1.25rem",
+    [theme.breakpoints.down("laptop")]: {
+      fontSize: "1rem",
+    },
+    [theme.breakpoints.down("tablet")]: {
+      fontSize: "0.75rem",
+    },
+    [theme.breakpoints.down("mobile")]: {
+      fontSize: "0.5rem",
+    },
+  };
+
   return theme
 }

@@ -8,6 +8,7 @@ export default function Home() {
       <Typography variant="h1">Responsive h1 Desktop First</Typography>
       <Typography variant="h2" >Responsive h2 Desktop First</Typography>
       <Typography variant="h3" >Responsive h3 Desktop First</Typography>
+      <Typography variant="h4" >Responsive h4 Desktop First</Typography>
     </div>
   )
 }
